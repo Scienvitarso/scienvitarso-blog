@@ -57,6 +57,9 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
+.selected {
+  color: #81D425 !important;
+}
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
@@ -161,7 +164,7 @@ hr.small {
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font-size: 24px;
-  line-height: 1.1,
+  line-height: 1.1;
 			display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
