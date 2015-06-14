@@ -7,7 +7,7 @@ image: "avatar.jpg"
 imageCover: "android-sharedProvider.png"
 ---
 
-#Shared Provider
+<h2 class="header">Shared Provider</h2>
 <p> A partir do android 4.0 foi implementada uma função interessante para compartilhar ações entre aplicativos chamado ShareActionProvider. Essa função é adicionada na sua Action Bar é serve para compartilhar informações entre aplicativos. É possível usar essa informação para compartilhar algo do seu aplicativo como uma menesagem do facebook ou do whatsup, enviar informações através do bluetooth entre outras coisas. 
 Caso esteja trabalhando com um target menor que o a API 14 o android disponibiliza essa função na support library.</p>
  

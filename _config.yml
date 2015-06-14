@@ -1,6 +1,6 @@
-url: http://scienvitarso.github.io/scienvitarso-blog
+baseurl: /scienvitarso-blog
+paginate: 4
 highlighter: pygments
 github: [Repository metadata]
-
 safe: true
 lsi: false

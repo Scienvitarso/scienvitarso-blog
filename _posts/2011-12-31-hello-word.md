@@ -3,7 +3,10 @@ layout: post
 title: "hello word"
 description: "description"
 author: "Fábio da Silva Santana"
+image: "avatar.jpg"
+imageCover: "placeholder_700x280.jpg"
 ---
+
 
 #hello word
 Silvio Santos Ipsum um, dois três, quatro, PIM, entendeuam? Ma você está certo dissoam? É por sua conta e riscoamm? É com você Lombardiam. Ma não existem mulher feiam, existem mulher que não conhece os produtos Jequitiamm. Boca sujuam... sem vergonhuamm. Boca sujuam... sem vergonhuamm. Ma vai pra lá. Mah você não consegue né Moisés? Você não consegueam. Ma não existem mulher feiam, existem mulher que não conhece os produtos Jequitiamm. É por sua conta e riscoamm? É fácil ou não éam?

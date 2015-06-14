@@ -1,8 +1,17 @@
  <!-- Navigation -->
  <nav>
-     <div class="nav-wrapper">
-         <a href="#" class="brand-logo center">Logo</a>
-     </div> 
+     <a href="#" class="brand-logo center">Logo</a>
+     <ul id="slide-out" class="side-nav fixed">
+      {% if page.url == "index.html" %}
+	     <li class="no-padding active"><a href="{{site.baseurl}}/index.html" class=" waves-effect waves-teal">Home</a></li>
+	{% else %}
+	     <li class="no-padding"><a href="{{site.baseurl}}/index.html" class=" waves-effect waves-teal">Home</a></li>
+      {% endif %}
+      {% assign pages_list = {{site.pages | sort: 'order'}} %}
+      {% assign group = 'navigation' %}
+      {% include pages_list %}
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
  </nav>
  
                   
