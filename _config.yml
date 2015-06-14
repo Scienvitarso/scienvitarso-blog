@@ -1,8 +1,12 @@
-production_url : http://scienvitarso.github.io/scienvitarso-blog
+production_url : http://scienvitarso.github.io/
 
 highlighter: pygments
 github: [Repository metadata]
 
 safe: true
 lsi: false
-source: .
+#source: scienvitarso-blog
+#destination: scienvitarso-blog/_site
+#plugins:     scienvitarso-blog/_plugins
+#layouts:     scienvitarso-blog/_layouts
+#data_source: scienvitarso-blog/_data
