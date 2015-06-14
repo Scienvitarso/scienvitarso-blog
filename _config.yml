@@ -1,4 +1,4 @@
-url: http://scienvitarso.github.io/scienvitarso-blog
+production_url : http://scienvitarso.github.io/scienvitarso-blog
 
 highlighter: pygments
 github: [Repository metadata]
