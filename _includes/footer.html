@@ -1,6 +1,6 @@
 
 <!-- Footer -->
-<footer class="page-footer">
+<footer class="page-footer teal darken-2">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
@@ -8,33 +8,16 @@
                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                         <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                         </span>
-                      </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                     </li>
-                </ul>
+              <h5 class="white-text">Contatos</h5>
+                <a href="#">
+                    <img src="{{site.baseurl}}/img/facebook-cicle-45x45.png"/>
+                </a>
+                <a href="#">
+                    <img src="{{site.baseurl}}/img/github_cicle-45x45.png"/>
+                </a>        
+                <a href="#">
+                    <img src="{{site.baseurl}}/img/Linkedin_circle-45x45.png"/>
+                </a>
               </div>
             </div>
           </div>
@@ -49,6 +32,8 @@
 <script src="{{site.baseurl}}/js/jquery.min.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}/js/materialize.min.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}/js/custom_js.js"></script>
+<!--google plataform-->
+<script type="text/javascript" src="http://apis.google.com/js/plataform.js" async defer></script>
 </body>
 <!--facebook comment -->
 <div id="fb-root"></div>
@@ -59,6 +44,18 @@
   js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64104571-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </html>
 
