@@ -11,6 +11,6 @@ $(document).ready(function(){
         $("#search-nav").hide(500);
     });
     $("#search-show-custom").click(function(){
-        $("#search-nav").show(500);
+        $("#search-nav").toggle(500);
     });
 });
