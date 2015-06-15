@@ -44,7 +44,7 @@ Caso esteja trabalhando com um target menor que o a API 14 o android disponibili
 <p>Com isso o icone de Compartilhar já deve aparecer na sua ActionBar.</p>
 
 <!--imagem celular -->
-<img class="responsive-img" src="{{site.url}}/img/android-sharedProvider.png">
+<img class="responsive-img" src="{{site.baseurl}}/img/android-sharedProvider.png">
 
 <p>Após adicionar o ícone na ActionBar temos que inserir a função de compartilhamento no item dentro do método onCreateOpitionsMenu. Vamos pergar a referência do item com o método findItem disponibilizada pela classe Menu que irá retornar um MenuItem , após isso vamos recuperar o ActionProvider com o método getActionProvider, que é feito de maneira distinta dependendo da API minima utilizada. Para API 14 ou maior utilizamos o MenuItem recuperado do metodo findItem. Para API com suporte a library v7 utilizamos  MenuItemCompat.getActionProvider e passamos como paramêtro o MenuItem. Finalmente com o ActionProvider recuperada temos que colocar uma Intent para ele usando o método setShareIntent.</p>
 
