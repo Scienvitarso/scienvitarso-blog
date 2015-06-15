@@ -5,12 +5,13 @@
   
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
- 
- 
-
 }
-@media only screen and (max-width : 992px) {
-  header, main, footer {
-    padding-left: 0;
-  }
+
+#pagination-margim{
+  margin-left: auto;
+  
+}
+
+#search-nav{
+   display: none;
 }
