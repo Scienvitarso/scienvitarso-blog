@@ -12,6 +12,15 @@
   
 }
 
-#search-nav{
-   display: none;
+#results-container{
+  margin: 0 0 0 0;
+}
+#search-bar-custom {
+  display: none;
+}
+#search-input{
+  
+  margin: 0 0 0 0;
+  height: 2em;
+  background: #009688;
 }

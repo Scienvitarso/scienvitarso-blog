@@ -6,11 +6,9 @@
   
   
 $(document).ready(function(){
-    $("#search-nav").hide();
-    $("#search-hide-custom").click(function(){
-        $("#search-nav").hide(500);
-    });
     $("#search-show-custom").click(function(){
-        $("#search-nav").toggle(500);
+        $("#search-input:text").val("");
+        $("#search-bar-custom").toggle(1000);
     });
+    
 });
