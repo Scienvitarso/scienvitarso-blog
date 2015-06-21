@@ -5,6 +5,7 @@
   //$('.collapsible').collapsible();
   
   
+  
 $(document).ready(function(){
     $("#search-show-custom").click(function(){
         $("#search-input:text").val("");
